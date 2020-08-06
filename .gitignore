@@ -9,6 +9,16 @@ npm-debug.*
 *.orig.*
 web-build/
 web-report/
+# custom
+config/keys.js
+
+#yarn
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
 
 # macOS
 .DS_Store
