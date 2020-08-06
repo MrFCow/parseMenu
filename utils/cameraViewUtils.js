@@ -1,5 +1,5 @@
 const jmespath = require('jmespath');
-const secrets = require('../keys');
+const secrets = require('../config/keys');
 
 const API_KEY = secrets.API_KEY;
 const API_URL = `https://vision.googleapis.com/v1/images:annotate?key=${API_KEY}`;
